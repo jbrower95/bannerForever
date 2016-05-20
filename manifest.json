@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Banner 4 Ever",
+    "description": "Don't let go. Use Banner 4 Ever.",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://selfservice.brown.edu/ss/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
